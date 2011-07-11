@@ -14,6 +14,9 @@ $(HR20_LCD_SUPPORT_FULL)_ECMD_SRC += hardware/lcd/hr20-ecmd.c
 $(HR20_LCD_SUPPORT)_SRC += hardware/lcd/hr20.c
 $(HR20_LCD_ECMD_SUPPORT)_ECMD_SRC += hardware/lcd/hr20-ecmd.c
 
+$(I80_LCD_SUPPORT)_SRC += hardware/lcd/i80.c
+$(I80_LCD_SUPPORT)_ECMD_SRC += hardware/lcd/i80_ecmd.c
+
 
 ##############################################################################
 # generic fluff

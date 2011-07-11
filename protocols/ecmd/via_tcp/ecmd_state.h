@@ -22,8 +22,8 @@
 #ifndef ECMD_STATE_H
 #define ECMD_STATE_H
 
-#define ECMD_INPUTBUF_LENGTH  50
-#define ECMD_OUTPUTBUF_LENGTH 50
+#define ECMD_INPUTBUF_LENGTH  55
+#define ECMD_OUTPUTBUF_LENGTH 55
 
 struct ecmd_connection_state_t {
     char inbuf[ECMD_INPUTBUF_LENGTH];

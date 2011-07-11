@@ -41,6 +41,8 @@ mainmenu_option next_comment
     dep_bool "HR20-style LCD Display (EXPERIMENTAL)" HR20_LCD_SUPPORT_FULL $atmega169 $EXPERIMENTAL_SUPPORT
   fi
 
+  dep_bool "i80-style LCD Display (EXPERIMENTAL)" I80_LCD_SUPPORT $ARCH_AVR
+  
   dep_bool "S1D15G10 module driver (130x130-R/G/B-LCD)" S1D15G10_SUPPORT $ARCH_AVR
 
   dep_bool "ST7626 module driver (98x67-R/G/B-LCD)" ST7626_SUPPORT $ARCH_AVR
